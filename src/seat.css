@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+.entry {
+    background-color: #fff;
+    height: 70px;
+    width: 20%;
+    margin: 15px 0;
+    transform: rotateX(-45deg);
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.75);
+    font-size:larger;
+    text-align: center;
+    float: right;
+  }
+  .exit {
+    background-color: #fff;
+    height: 70px;
+    width: 20%;
+    margin: 15px 0;
+    transform: rotateX(-45deg);
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.75);
+    font-size:larger;
+    text-align: center;
+  }
+  .container {
+      perspective: 1000px;
+  }
+
+  body {
+    background-color: #89CFF0;
+  }
